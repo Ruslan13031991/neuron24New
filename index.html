@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neuron24 — AI-аналітика продажів</title>
+  <meta name="description" content="Neuron24 — платформа AI-аналітики для відділів продажів. Аналіз 100% дзвінків, месенджерів, Zoom та офлайн-зустрічей. Збільшуйте конверсію та середній чек." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%231D93FF'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='Montserrat,sans-serif' font-weight='900' font-size='14' fill='white'>N</text></svg>" />
+</head>
+<body>
+
+<!-- ============================================================
+     HEADER
+     ============================================================ -->
+<header class="header" id="top">
+  <div class="header__inner">
+    <a href="#top" class="header__logo">
+      <div class="header__logo-mark">N</div>
+      NEURON<span style="color:#1D93FF">24</span>
+    </a>
+    <nav class="header__nav">
+      <a href="#products">Продукти</a>
+      <a href="#how-it-works">Як це працює</a>
+      <a href="#cases">Кейси</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Контакти</a>
+    </nav>
+    <div class="header__cta">
+      <a href="tel:+380800000000" class="header__phone">+38 (0800) 000-000</a>
+      <a href="#demo" class="btn-primary" data-scroll-to="#demo">Замовити демо</a>
+    </div>
+    <button class="header__burger" aria-label="Меню">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile menu -->
+<nav class="mobile-menu">
+  <a href="#products">Продукти</a>
+  <a href="#how-it-works">Як це працює</a>
+  <a href="#cases">Кейси</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contact">Контакти</a>
+  <a href="#demo" style="color:#1D93FF;font-weight:800;">Замовити демо →</a>
+</nav>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="hero" id="hero">
+  <div class="hero__inner">
+    <div class="hero__content">
+      <div class="hero__badge">
+        <div class="hero__badge-dot"></div>
+        AI-платформа для продажів
+      </div>
+      <h1 class="hero__title">
+        Ваші продажі під<br/>
+        <span>повним контролем AI</span>
+      </h1>
+      <p class="hero__subtitle">
+        Neuron24 аналізує 100% комунікацій вашого відділу продажів — дзвінки, месенджери, Zoom та офлайн-зустрічі. Виявляйте слабкі місця та збільшуйте конверсію.
+      </p>
+      <div class="hero__actions">
+        <a href="#demo" class="btn-primary" data-scroll-to="#demo">
+          Замовити демо
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+        <a href="#products" class="btn-outline-white" data-scroll-to="#products">
+          Дізнатись більше
+        </a>
+      </div>
+      <div class="hero__stats">
+        <div>
+          <div class="hero__stat-value">100%</div>
+          <div class="hero__stat-label">охоплення розмов</div>
+        </div>
+        <div>
+          <div class="hero__stat-value">48год</div>
+          <div class="hero__stat-label">до перших інсайтів</div>
+        </div>
+        <div>
+          <div class="hero__stat-value">120+</div>
+          <div class="hero__stat-label">мов аналізу</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__visual">
+      <div class="hero__img-main">
+        <img
+          src="https://s3-alpha-sig.figma.com/img/2070/8c26/7976718347f37bf05b35414165e60536?Expires=1782086400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=rZ3xowgrlCxEgbPeta3tEpyR7DOX2GkabZiKI~h41xjN20~SnR28hPzM0gmRiwbh~p77GkhMINt95XtF29Ov0pw9Y8JBLnFU4W2A6jrCiJYGLeD7ir5vivnYgFRUZOdPruMGnBHJu-UwjtVNWpR8l174ZOgQutndbIgii-1ChFMQeds6T99zSLRayb6QXTvXji8zULPA0eNXBKVMyLd-cv8oPxcRqoLgUV2MeO1jy-fAhtv9LLTJ9iN~HaQ74pBGFmAmZXmX5kb4PFJTdZDhpmWzfmUrSPt~dIZplxblXjWQr5QiJnMOpTET~RlO2weOFIM2MMQ5eRvVSYeJ6Alcbg__"
+          alt="Neuron24 Dashboard — аналітика продажів"
+          loading="eager"
+        />
+      </div>
+      <div class="hero__float-card hero__float-card--tl">
+        <div class="hero__float-icon hero__float-icon--green">📈</div>
+        <div>
+          <div class="hero__float-text-main">+23%</div>
+          <div class="hero__float-text-sub">конверсія за місяць</div>
+        </div>
+      </div>
+      <div class="hero__float-card hero__float-card--br">
+        <div class="hero__float-icon hero__float-icon--blue">🎙</div>
+        <div>
+          <div class="hero__float-text-main">1 247</div>
+          <div class="hero__float-text-sub">дзвінків проаналізовано</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CHANNELS / INTEGRATIONS MARQUEE
+     ============================================================ -->
+<section class="channels">
+  <div class="channels__label">Інтегруємось з вашими інструментами</div>
+  <div class="channels__track-wrap">
+    <div class="channels__track">
+      <div class="channels__item">📱 Telegram</div>
+      <div class="channels__item">💬 Viber</div>
+      <div class="channels__item">🟢 WhatsApp</div>
+      <div class="channels__item">📸 Instagram</div>
+      <div class="channels__item">🎥 Zoom</div>
+      <div class="channels__item">📊 Bitrix24</div>
+      <div class="channels__item">🎯 amoCRM</div>
+      <div class="channels__item">📞 Binotel</div>
+      <div class="channels__item">📞 Ringostat</div>
+      <div class="channels__item">📞 Kyivstar</div>
+      <div class="channels__item">🔵 Lifecell</div>
+      <div class="channels__item">🎧 Asterisk</div>
+      <!-- Duplicate for seamless loop -->
+      <div class="channels__item">📱 Telegram</div>
+      <div class="channels__item">💬 Viber</div>
+      <div class="channels__item">🟢 WhatsApp</div>
+      <div class="channels__item">📸 Instagram</div>
+      <div class="channels__item">🎥 Zoom</div>
+      <div class="channels__item">📊 Bitrix24</div>
+      <div class="channels__item">🎯 amoCRM</div>
+      <div class="channels__item">📞 Binotel</div>
+      <div class="channels__item">📞 Ringostat</div>
+      <div class="channels__item">📞 Kyivstar</div>
+      <div class="channels__item">🔵 Lifecell</div>
+      <div class="channels__item">🎧 Asterisk</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PROBLEMS
+     ============================================================ -->
+<section class="problems">
+  <div class="container">
+    <div class="problems__header">
+      <h2 class="section-heading">Проблеми відділу продажів,<br/>які вирішує Neuron24</h2>
+      <p class="problems__subtitle">Знайомі ситуації? Ми знаємо як їх вирішити.</p>
+    </div>
+    <div class="problems__grid">
+      <div class="problem-card">
+        <div class="problem-card__icon">🎧</div>
+        <div class="problem-card__title">Керівник прослуховує лише 3% дзвінків</div>
+        <p class="problem-card__desc">Більшість розмов залишаються без контролю. Помилки менеджерів повторюються знову і знову, а ви навіть не знаєте про них.</p>
+      </div>
+      <div class="problem-card">
+        <div class="problem-card__icon">📉</div>
+        <div class="problem-card__title">Не ясно, чому падає конверсія</div>
+        <p class="problem-card__desc">Цифри погіршуються, але причина невідома. Менеджери кажуть що все добре, а продажі говорять інше.</p>
+      </div>
+      <div class="problem-card">
+        <div class="problem-card__icon">🔇</div>
+        <div class="problem-card__title">Месенджери поза контролем</div>
+        <p class="problem-card__desc">Telegram, Viber, WhatsApp — ніхто не знає, що там пишуть менеджери клієнтам. Скрипт не контролюється.</p>
+      </div>
+      <div class="problem-card">
+        <div class="problem-card__icon">🐢</div>
+        <div class="problem-card__title">Довгий онбординг нових менеджерів</div>
+        <p class="problem-card__desc">Нові співробітники 2-3 місяці входять в роботу, навчаючись на штучних кейсах замість реальних прикладів.</p>
+      </div>
+      <div class="problem-card">
+        <div class="problem-card__icon">💸</div>
+        <div class="problem-card__title">Менеджери не виявляють потреби</div>
+        <p class="problem-card__desc">Клієнт готовий купити більше, але менеджер пропонує мінімум. Середній чек нижче потенційного.</p>
+      </div>
+      <div class="problem-card">
+        <div class="problem-card__icon">📵</div>
+        <div class="problem-card__title">Офлайн-зустрічі поза системою</div>
+        <p class="problem-card__desc">Виїзні переговори, офісні зустрічі — жодного запису, жодної аналітики. Що відбулось — невідомо.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PRODUCTS
+     ============================================================ -->
+<section class="products" id="products">
+  <div class="container">
+    <div class="products__header">
+      <h2 class="section-heading">Наші продукти:</h2>
+      <div class="products__nav">
+        <button class="products__nav-btn products__nav-btn--prev" aria-label="Назад">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+        <button class="products__nav-btn products__nav-btn--next" aria-label="Далі">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="products__tabs">
+      <button class="products__tab active">Кастомний скрипт</button>
+      <button class="products__tab">Мовна аналітика</button>
+      <button class="products__tab">Аналітика месенджерів</button>
+      <button class="products__tab">Аналітика Zoom</button>
+      <button class="products__tab">Аудіо-бейдж</button>
+    </div>
+
+    <!-- Panel 0 -->
+    <div class="product-panel active">
+      <div class="products__card">
+        <div class="products__card-inner">
+          <div class="products__card-content">
+            <h3 class="products__card-title">Кастомний скрипт під ваш бізнес і продукт</h3>
+            <p class="products__card-desc">AI аналізує кожен дзвінок за 20+ параметрами</p>
+            <ul class="products__features">
+              <li class="products__feature"><span class="products__feature-dot"></span>Розробка скрипту під специфіку вашого продукту</li>
+              <li class="products__feature"><span class="products__feature-dot"></span>Автоматичний контроль дотримання скрипту</li>
+              <li class="products__feature"><span class="products__feature-dot"></span>AI-оцінка якості за 20+ параметрами</li>
+              <li class="products__feature"><span class="products__feature-dot"></span>Рекомендації для покращення</li>
+            </ul>
+            <div class="products__card-actions">
+              <a href="#demo" class="btn-primary" data-scroll-to="#demo">Замовити демо <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+              <button class="btn-outline-blue">Детальніше</button>
+            </div>
+          </div>
+          <div class="products__card-image">
+            <img src="https://images.pexels.com/photos/7682340/pexels-photo-7682340.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Кастомний скрипт" loading="lazy" />
+            <div class="products__card-image-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Panel 1 -->
+    <div class="product-panel">
+      <div class="products__card">
+        <div class="products__card-inner">
+          <div class="products__card-content">
+            <h3 class="products__card-title">Мовна аналітика дзвінків</h3>
+            <p class="products__card-desc">Аналіз 100% телефонних розмов в режимі реального часу</p>
+            <ul class="products__features">
+              <li class="products__feature"><span class="products__feature-dot"></span>Транскрипція та аналіз всіх дзвінків</li>
+              <li class="products__feature"><span class="products__feature-dot"></span>Виявлення стоп-фраз та заперечень</li>
+              <li class="products__feature"><span class="products__feature-dot"></span>Аналіз емоцій та тону розмови</li>
+              <li class="products__feature"><span class="products__feature-dot"></span>Автоматичний звіт після кожного дзвінка</li>
+            </ul>
+            <div class="products__card-actions">
+              <a href="#demo" class="btn-primary" data-scroll-to="#demo">Замовити демо <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+              <button class="btn-outline-blue">Детальніше</button>
+            </div>
+          </div>
+          <div class="products__card-image">
+            <img src="https://images.pexels.com/photos/5473337/pexels-photo-5473337.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Мовна аналітика" loading="lazy" />
+            <div class="products__card-image-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Panel 2 -->
+    <div class="product-panel">
+      <div class="products__card">
+        <div class="products__card-inner">
+          <div class="products__card-content">
+            <h3 class="products__card-title">Аналітика месенджерів</h3>
+            <p class="products__card-desc">Контроль якості текстових комунікацій у всіх каналах</p>
+            <ul class="products__features">
+              <li class="products__feature"><span class="products__feature-dot"></span>Telegram, Viber, WhatsApp, Instagram</li>
+              <li class="products__feature"><span class="products__feature-dot"></span>Контроль часу відповіді</li>
+              <li class="products__feature"><span class="products__feature-dot"></span>Аналіз скрипту в текстових діалогах</li>
+              <li class="products__feature"><span class="products__feature-dot"></span>Звіти по кожному менеджеру</li>
+            </ul>
+            <div class="products__card-actions">
+              <a href="#demo" class="btn-primary" data-scroll-to="#demo">Замовити демо <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+              <button class="btn-outline-blue">Детальніше</button>
+            </div>
+          </div>
+          <div class="products__card-image">
+            <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Аналітика месенджерів" loading="lazy" />
+            <div class="products__card-image-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Panel 3 -->
+    <div class="product-panel">
+      <div class="products__card">
+        <div class="products__card-inner">
+          <div class="products__card-content">
+            <h3 class="products__card-title">Аналітика Zoom-зустрічей</h3>
+            <p class="products__card-desc">Аналіз відеопереговорів та онлайн-презентацій</p>
+            <ul class="products__features">
+              <li class="products__feature"><span class="products__feature-dot"></span>Запис та транскрипція зустрічей</li>
+              <li class="products__feature"><span class="products__feature-dot"></span>Аналіз участі та активності</li>
+              <li class="products__feature"><span class="products__feature-dot"></span>Виявлення ключових моментів розмови</li>
+              <li class="products__feature"><span class="products__feature-dot"></span>Резюме та action items після зустрічі</li>
+            </ul>
+            <div class="products__card-actions">
+              <a href="#demo" class="btn-primary" data-scroll-to="#demo">Замовити демо <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+              <button class="btn-outline-blue">Детальніше</button>
+            </div>
+          </div>
+          <div class="products__card-image">
+            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Аналітика Zoom" loading="lazy" />
+            <div class="products__card-image-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Panel 4 -->
+    <div class="product-panel">
+      <div class="products__card">
+        <div class="products__card-inner">
+          <div class="products__card-content">
+            <h3 class="products__card-title">Аудіо-бейдж для офлайн зустрічі</h3>
+            <p class="products__card-desc">Аналіз офлайн-зустрічей та живих переговорів</p>
+            <ul class="products__features">
+              <li class="products__feature"><span class="products__feature-dot"></span>Фізичний пристрій для запису офлайн-розмов</li>
+              <li class="products__feature"><span class="products__feature-dot"></span>Автоматична активація після ключових фраз</li>
+              <li class="products__feature"><span class="products__feature-dot"></span>Миттєвий аналіз після розмови</li>
+              <li class="products__feature"><span class="products__feature-dot"></span>Підсумок і рекомендації</li>
+            </ul>
+            <div class="products__card-actions">
+              <a href="#demo" class="btn-primary" data-scroll-to="#demo">Замовити демо <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+              <button class="btn-outline-blue">Детальніше</button>
+            </div>
+          </div>
+          <div class="products__card-image">
+            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Аудіо-бейдж" loading="lazy" />
+            <div class="products__card-image-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="products__pagination">
+      <button class="products__pagination-btn products__pagination-btn--prev">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+        Назад
+      </button>
+      <span class="products__pagination-info">1/5</span>
+      <button class="products__pagination-btn products__pagination-btn--next">
+        Далі
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     AUDIO BADGE SPOTLIGHT
+     ============================================================ -->
+<section class="audiobadge">
+  <div class="audiobadge__inner">
+    <div class="audiobadge__content">
+      <div class="audiobadge__tag">Нова розробка</div>
+      <h2 class="audiobadge__title">
+        Аудіо-бейдж —<br/>
+        <span>контроль офлайн</span>
+      </h2>
+      <p class="audiobadge__desc">
+        Перший у своєму роді носимий пристрій для аналізу офлайн-переговорів. Прикріпіть до одягу — і Neuron24 автоматично запише, розшифрує та проаналізує кожну зустріч.
+      </p>
+      <ul class="audiobadge__features">
+        <li class="audiobadge__feature">
+          <span class="audiobadge__feature-check">✓</span>
+          Компактний пристрій, схожий на звичайний бейдж
+        </li>
+        <li class="audiobadge__feature">
+          <span class="audiobadge__feature-check">✓</span>
+          Активація за голосовою командою або автоматично
+        </li>
+        <li class="audiobadge__feature">
+          <span class="audiobadge__feature-check">✓</span>
+          Аналіз у хмарі та звіт у реальному часі
+        </li>
+        <li class="audiobadge__feature">
+          <span class="audiobadge__feature-check">✓</span>
+          Підтримка 120+ мов, у тому числі суміші мов
+        </li>
+      </ul>
+      <a href="#demo" class="btn-primary" data-scroll-to="#demo">
+        Дізнатись більше
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+    </div>
+    <div class="audiobadge__visual">
+      <div class="audiobadge__img">
+        <img
+          src="https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt="Аудіо-бейдж Neuron24"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     HOW IT WORKS
+     ============================================================ -->
+<section class="howitworks" id="how-it-works">
+  <div class="container">
+    <div class="howitworks__header">
+      <h2 class="section-heading">Як це працює?</h2>
+      <p class="howitworks__subtitle">Від підключення до першого звіту — всього 48 годин</p>
+    </div>
+    <div class="howitworks__steps">
+      <div class="howitworks__step">
+        <div class="howitworks__step-num">1</div>
+        <h3 class="howitworks__step-title">Підключення</h3>
+        <p class="howitworks__step-desc">Інтегруємо Neuron24 з вашою АТС, CRM та месенджерами за 30 хвилин</p>
+      </div>
+      <div class="howitworks__step">
+        <div class="howitworks__step-num">2</div>
+        <h3 class="howitworks__step-title">Налаштування</h3>
+        <p class="howitworks__step-desc">Розробляємо кастомний скрипт під ваш продукт та параметри оцінки</p>
+      </div>
+      <div class="howitworks__step">
+        <div class="howitworks__step-num">3</div>
+        <h3 class="howitworks__step-title">Аналіз</h3>
+        <p class="howitworks__step-desc">AI аналізує 100% комунікацій в режимі реального часу автоматично</p>
+      </div>
+      <div class="howitworks__step">
+        <div class="howitworks__step-num">4</div>
+        <h3 class="howitworks__step-title">Результат</h3>
+        <p class="howitworks__step-desc">Отримуєте інсайти, звіти та рекомендації для збільшення продажів</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     STATS / ADVANTAGES
+     ============================================================ -->
+<section class="stats">
+  <div class="container">
+    <div class="stats__header">
+      <h2 class="section-heading section-heading--white">Переваги:</h2>
+    </div>
+    <div class="stats__grid">
+      <div class="stat-card">
+        <div class="stat-card__value">100%</div>
+        <div class="stat-card__label">охоплення</div>
+        <p class="stat-card__desc">Не 3%, не вибірка. Кожна розмова аналізується автоматично</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">ВСІ</div>
+        <div class="stat-card__label">канали</div>
+        <p class="stat-card__desc">Єдина платформа для дзвінків, месенджерів, Zoom та офлайн</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">AI</div>
+        <div class="stat-card__label">тренажер</div>
+        <p class="stat-card__desc">Менеджери навчаються на вчорашніх реальних діалогах</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">48</div>
+        <div class="stat-card__label">годин</div>
+        <p class="stat-card__desc">Від підключення до перших інсайтів та рекомендацій</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">120+</div>
+        <div class="stat-card__label">мов</div>
+        <p class="stat-card__desc">Аналізуємо розмови будь-якою мовою, в тому числі мікс</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">CRM</div>
+        <div class="stat-card__label">інтеграція</div>
+        <p class="stat-card__desc">Аналітика потрапляє туди, де вже працює команда</p>
+      </div>
+    </div>
+    <div class="stats__cta">
+      <a href="#demo" class="btn-primary" style="padding:16px 36px;font-size:16px;" data-scroll-to="#demo">
+        Спробувати
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CASES
+     ============================================================ -->
+<section class="cases" id="cases">
+  <div class="container">
+    <div class="cases__header">
+      <h2 class="section-heading">Кейси клієнтів:</h2>
+      <a href="#" class="cases__link">Всі кейси →</a>
+    </div>
+    <div class="cases__grid">
+      <div class="case-card">
+        <div class="case-card__image">
+          <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Кейс: E-commerce" loading="lazy" />
+        </div>
+        <div class="case-card__body">
+          <span class="case-card__tag">E-commerce</span>
+          <h3 class="case-card__title">Як інтернет-магазин збільшив середній чек на 20%</h3>
+          <div class="case-card__result">+20%</div>
+          <div class="case-card__result-desc">до середнього чеку за перший місяць</div>
+        </div>
+      </div>
+      <div class="case-card">
+        <div class="case-card__image">
+          <img src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Кейс: B2B" loading="lazy" />
+        </div>
+        <div class="case-card__body">
+          <span class="case-card__tag">B2B продажі</span>
+          <h3 class="case-card__title">Онбординг нових менеджерів вдвічі швидший</h3>
+          <div class="case-card__result">-50%</div>
+          <div class="case-card__result-desc">часу на введення нового менеджера в роботу</div>
+        </div>
+      </div>
+      <div class="case-card">
+        <div class="case-card__image">
+          <img src="https://images.pexels.com/photos/3182781/pexels-photo-3182781.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Кейс: Нерухомість" loading="lazy" />
+        </div>
+        <div class="case-card__body">
+          <span class="case-card__tag">Нерухомість</span>
+          <h3 class="case-card__title">Агентство нерухомості підвищило конверсію дзвінків</h3>
+          <div class="case-card__result">+35%</div>
+          <div class="case-card__result-desc">конверсія дзвінка у зустріч</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     BENEFITS
+     ============================================================ -->
+<section class="benefits">
+  <div class="container">
+    <div class="benefits__inner">
+      <div class="benefits__content">
+        <span class="benefits__tag">Результати</span>
+        <h2 class="benefits__title">Що отримує ваш бізнес</h2>
+        <p class="benefits__desc">
+          Neuron24 перетворює хаос комунікацій у структуровані дані та конкретні дії для зростання продажів.
+        </p>
+        <ul class="benefits__list">
+          <li class="benefits__item">
+            <div class="benefits__item-icon">📊</div>
+            <div>
+              <div class="benefits__item-title">Прозорість процесів</div>
+              <div class="benefits__item-desc">Повна картина роботи відділу продажів без ручного прослуховування</div>
+            </div>
+          </li>
+          <li class="benefits__item">
+            <div class="benefits__item-icon">🎯</div>
+            <div>
+              <div class="benefits__item-title">Зростання конверсії</div>
+              <div class="benefits__item-desc">Виявляйте що заважає менеджерам закривати угоди та виправляйте це</div>
+            </div>
+          </li>
+          <li class="benefits__item">
+            <div class="benefits__item-icon">🚀</div>
+            <div>
+              <div class="benefits__item-title">Швидкий онбординг</div>
+              <div class="benefits__item-desc">Нові менеджери навчаються на кращих реальних прикладах з вашої бази</div>
+            </div>
+          </li>
+        </ul>
+        <a href="#demo" class="btn-primary" data-scroll-to="#demo">
+          Замовити демо
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="benefits__visual">
+        <div class="benefits__metric">
+          <div class="benefits__metric-value">+20%</div>
+          <div class="benefits__metric-label">середній чек після впровадження</div>
+        </div>
+        <div class="benefits__metric">
+          <div class="benefits__metric-value">2×</div>
+          <div class="benefits__metric-label">швидший онбординг менеджерів</div>
+        </div>
+        <div class="benefits__metric">
+          <div class="benefits__metric-value">100%</div>
+          <div class="benefits__metric-label">охоплення всіх комунікацій</div>
+        </div>
+        <div class="benefits__metric">
+          <div class="benefits__metric-value">48год</div>
+          <div class="benefits__metric-label">до перших інсайтів після запуску</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     REVIEWS
+     ============================================================ -->
+<section class="reviews">
+  <div class="container">
+    <div class="reviews__header">
+      <h2 class="section-heading section-heading--blue">Відгуки про нас</h2>
+      <a href="#" class="reviews__link">Дивитись всі відгуки →</a>
+    </div>
+    <div class="reviews__grid">
+      <div class="review-card">
+        <div class="review-card__stars">★★★★★</div>
+        <p class="review-card__text">
+          "Завдяки Neuron24 ми виявили, що в 90% розмов менеджери не виявляли потреб клієнта. Після виправлення середній чек виріс на 20% за перший місяць."
+        </p>
+        <div class="review-card__author">
+          <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Олексій Гончаренко" class="review-card__author-img" loading="lazy" />
+          <div>
+            <div class="review-card__author-name">Олексій Гончаренко</div>
+            <div class="review-card__author-role">Власник, Спеції Гурман</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-card__stars">★★★★★</div>
+        <p class="review-card__text">
+          "Нарешті бачу реальну картину того, що відбувається у відділі. Не потрібно прослуховувати сотні дзвінків вручну — AI робить це за мене."
+        </p>
+        <div class="review-card__author">
+          <img src="https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Вікторія Кравченко" class="review-card__author-img" loading="lazy" />
+          <div>
+            <div class="review-card__author-name">Вікторія Кравченко</div>
+            <div class="review-card__author-role">Керівник відділу продажів</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-card__stars">★★★★★</div>
+        <p class="review-card__text">
+          "Інтеграція зайняла 30 хвилин. Вже через 2 дні отримали перші інсайти. Дуже зручний дашборд і зрозумілі рекомендації."
+        </p>
+        <div class="review-card__author">
+          <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Максим Петренко" class="review-card__author-img" loading="lazy" />
+          <div>
+            <div class="review-card__author-name">Максим Петренко</div>
+            <div class="review-card__author-role">CEO, TechSales UA</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-card__stars">★★★★★</div>
+        <p class="review-card__text">
+          "Онбординг нових менеджерів тепер вдвічі швидший. Вони вчаться на реальних прикладах кращих розмов, а не на штучних кейсах."
+        </p>
+        <div class="review-card__author">
+          <img src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Ірина Коваль" class="review-card__author-img" loading="lazy" />
+          <div>
+            <div class="review-card__author-name">Ірина Коваль</div>
+            <div class="review-card__author-role">HR Director</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     DEMO FORM
+     ============================================================ -->
+<section class="demo" id="demo">
+  <div class="demo__inner">
+    <div class="demo__content">
+      <div class="demo__tag">Безкоштовно</div>
+      <h2 class="demo__title">
+        Замовте безкоштовне<br/>
+        <span>демо Neuron24</span>
+      </h2>
+      <p class="demo__desc">
+        Покажемо як платформа працює на реальних прикладах вашої ніші. Без зобов'язань, без технічних знань.
+      </p>
+      <ul class="demo__perks">
+        <li class="demo__perk">Персональна презентація під ваш бізнес</li>
+        <li class="demo__perk">Аналіз 10 реальних дзвінків безкоштовно</li>
+        <li class="demo__perk">Технічна підтримка при підключенні</li>
+        <li class="demo__perk">Без прив'язки до договору</li>
+      </ul>
+    </div>
+    <div class="demo__form-card">
+      <div id="demo-form-wrap">
+        <div class="demo__form-title">Залишити заявку</div>
+        <div class="demo__form-sub">Відповімо протягом 2 годин</div>
+        <form id="demo-form" novalidate>
+          <div class="form-group">
+            <label>Ваше ім'я</label>
+            <input type="text" name="name" placeholder="Іван Іваненко" required />
+          </div>
+          <div class="form-group">
+            <label>Номер телефону</label>
+            <input type="tel" name="phone" placeholder="+38 (0XX) XXX-XX-XX" required />
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" name="email" placeholder="ivan@company.ua" />
+          </div>
+          <div class="form-group">
+            <label>Кількість менеджерів</label>
+            <select name="team_size">
+              <option value="">Оберіть…</option>
+              <option>1–5</option>
+              <option>6–20</option>
+              <option>21–50</option>
+              <option>50+</option>
+            </select>
+          </div>
+          <button type="submit" class="demo__form-submit">Замовити демо безкоштовно</button>
+          <div class="demo__form-note">Натискаючи кнопку, ви погоджуєтесь з політикою конфіденційності</div>
+        </form>
+      </div>
+      <div class="form-success" id="demo-success">
+        <div class="form-success__icon">✅</div>
+        <div class="form-success__title">Заявку отримано!</div>
+        <div class="form-success__text">Наш менеджер зв'яжеться з вами протягом 2 годин у робочий час.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FAQ
+     ============================================================ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="faq__header">
+      <h2 class="section-heading">Часті запитання</h2>
+      <p>Відповіді на популярні питання про Neuron24</p>
+    </div>
+    <div class="faq__list">
+      <div class="faq__item">
+        <button class="faq__question">
+          Скільки часу займає підключення?
+          <span class="faq__icon">+</span>
+        </button>
+        <div class="faq__answer">
+          <div class="faq__answer-inner">
+            Підключення займає від 30 хвилин до кількох годин залежно від складності інтеграції з вашою АТС та CRM. Наші технічні спеціалісти допоможуть на кожному кроці. Перші аналітичні дані ви отримаєте вже через 48 годин після запуску.
+          </div>
+        </div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__question">
+          Які канали підтримуються?
+          <span class="faq__icon">+</span>
+        </button>
+        <div class="faq__answer">
+          <div class="faq__answer-inner">
+            Neuron24 підтримує: телефонні дзвінки (Binotel, Ringostat, Kyivstar та інші АТС), месенджери (Telegram, Viber, WhatsApp, Instagram Direct), відеозустрічі (Zoom, Google Meet), а також офлайн-переговори через аудіо-бейдж.
+          </div>
+        </div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__question">
+          Чи безпечні дані клієнтів?
+          <span class="faq__icon">+</span>
+        </button>
+        <div class="faq__answer">
+          <div class="faq__answer-inner">
+            Безпека даних — наш пріоритет. Всі дані зашифровані за стандартом AES-256, зберігаються на захищених серверах в Україні або ЄС відповідно до GDPR. Ми підписуємо NDA з кожним клієнтом та не передаємо дані третім сторонам.
+          </div>
+        </div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__question">
+          Яка вартість платформи?
+          <span class="faq__icon">+</span>
+        </button>
+        <div class="faq__answer">
+          <div class="faq__answer-inner">
+            Вартість залежить від кількості менеджерів, каналів та набору функцій. Ціни починаються від $99/місяць. Ми пропонуємо безкоштовне демо та пробний період 14 днів. Залиште заявку — і ми підготуємо персональну пропозицію для вашого бізнесу.
+          </div>
+        </div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__question">
+          Чи потрібні технічні знання для роботи?
+          <span class="faq__icon">+</span>
+        </button>
+        <div class="faq__answer">
+          <div class="faq__answer-inner">
+            Ні, технічні знання не потрібні. Neuron24 має інтуїтивний інтерфейс, доступний будь-якому керівнику або менеджеру. Підключення здійснює наша технічна команда, а навчання займає не більше 1 години. Ми також надаємо постійну підтримку.
+          </div>
+        </div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__question">
+          Чи можна аналізувати розмови іноземними мовами?
+          <span class="faq__icon">+</span>
+        </button>
+        <div class="faq__answer">
+          <div class="faq__answer-inner">
+            Так, Neuron24 підтримує 120+ мов, включаючи суміші мов в одній розмові (наприклад, українська + російська, або українська + англійська). Мова визначається автоматично.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT
+     ============================================================ -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact__inner">
+      <div class="contact__info-col">
+        <h2 class="contact__title">Зв'яжіться з нами</h2>
+        <p class="contact__desc">
+          Маєте питання? Хочете дізнатись більше? Наша команда на зв'язку — звертайтесь зручним способом.
+        </p>
+        <ul class="contact__info">
+          <li class="contact__info-item">
+            <div class="contact__info-icon">📞</div>
+            <a href="tel:+380800000000">+38 (0800) 000-000</a>
+          </li>
+          <li class="contact__info-item">
+            <div class="contact__info-icon">✉️</div>
+            <a href="mailto:hello@neuron24.ua">hello@neuron24.ua</a>
+          </li>
+          <li class="contact__info-item">
+            <div class="contact__info-icon">💬</div>
+            Telegram: @neuron24_support
+          </li>
+          <li class="contact__info-item">
+            <div class="contact__info-icon">🕐</div>
+            Пн–Пт, 9:00–18:00 (Київ)
+          </li>
+        </ul>
+      </div>
+      <div class="contact__form">
+        <div id="contact-form-wrap">
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label>Ваше ім'я</label>
+              <input type="text" name="name" placeholder="Іван Іваненко" required />
+            </div>
+            <div class="form-group">
+              <label>Email або телефон</label>
+              <input type="text" name="contact" placeholder="ivan@company.ua або +38..." required />
+            </div>
+            <div class="form-group">
+              <label>Повідомлення</label>
+              <textarea name="message" placeholder="Ваше запитання або коментар…"></textarea>
+            </div>
+            <button type="submit" class="contact__submit">Надіслати повідомлення</button>
+          </form>
+        </div>
+        <div class="form-success" id="contact-success">
+          <div class="form-success__icon">✅</div>
+          <div class="form-success__title" style="color:#1A1233;">Повідомлення надіслано!</div>
+          <div class="form-success__text" style="color:#808793;">Відповімо вам найближчим часом у робочий час.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <div class="footer__brand-name">NEURON<span style="color:#1D93FF">24</span></div>
+        <p class="footer__brand-desc">
+          AI-платформа для аналізу та покращення продажів. Контролюйте 100% комунікацій та збільшуйте конверсію.
+        </p>
+        <div class="footer__socials">
+          <a href="#" class="footer__social" aria-label="Telegram">✈</a>
+          <a href="#" class="footer__social" aria-label="LinkedIn">in</a>
+          <a href="#" class="footer__social" aria-label="Instagram">◎</a>
+          <a href="#" class="footer__social" aria-label="YouTube">▶</a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <div class="footer__col-title">Продукти</div>
+        <ul class="footer__links">
+          <li><a href="#products">Кастомний скрипт</a></li>
+          <li><a href="#products">Мовна аналітика</a></li>
+          <li><a href="#products">Аналітика месенджерів</a></li>
+          <li><a href="#products">Аналітика Zoom</a></li>
+          <li><a href="#products">Аудіо-бейдж</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <div class="footer__col-title">Компанія</div>
+        <ul class="footer__links">
+          <li><a href="#">Про нас</a></li>
+          <li><a href="#cases">Кейси</a></li>
+          <li><a href="#">Блог</a></li>
+          <li><a href="#">Партнерам</a></li>
+          <li><a href="#contact">Контакти</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <div class="footer__col-title">Підтримка</div>
+        <ul class="footer__links">
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#">Документація</a></li>
+          <li><a href="#">Статус системи</a></li>
+          <li><a href="mailto:hello@neuron24.ua">hello@neuron24.ua</a></li>
+          <li><a href="tel:+380800000000">+38 (0800) 000-000</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__copy">© 2024 Neuron24. Всі права захищені.</div>
+      <div class="footer__legal">
+        <a href="#">Політика конфіденційності</a>
+        <a href="#">Умови використання</a>
+        <a href="#">Публічна оферта</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

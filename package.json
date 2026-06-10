@@ -1,0 +1,8 @@
+{
+  "name": "neuron24-website",
+  "version": "1.0.0",
+  "description": "Neuron24 — AI sales analytics landing page (pure HTML/CSS/JS)",
+  "scripts": {
+    "build": "echo 'Static HTML/CSS/JS site — no build step required'"
+  }
+}
